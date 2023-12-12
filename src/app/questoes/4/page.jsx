@@ -1,20 +1,4 @@
-const produtos = [
-  {
-    id: 1,
-    nome: "Camiseta",
-    preco: 10.99,
-  },
-  {
-    id: 2,
-    nome: "Calça",
-    preco: 19.99,
-  },
-  {
-    id: 3,
-    nome: "Saia",
-    preco: 19.99,
-  },
-];
+import ProductList from "@/app/components/ProductList";
 
 export default function Questao4() {
   return (
@@ -25,6 +9,7 @@ export default function Questao4() {
         objetos de produto e renderiza uma lista de produtos. Cada produto deve
         exibir seu nome e preço.
       </p>
+      <ProductList/>
     </>
   );
 }

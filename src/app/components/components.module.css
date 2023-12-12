@@ -3,3 +3,54 @@
   display: flex;
   justify-content: flex-end;
 }
+
+/* PAGE 1 */
+.button {
+  background-color: red;
+  border: 2px;
+  border-radius: 10px;
+  padding: 12px 15px;
+  margin-top: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.7;
+}
+
+/* PAGE 2 */
+.containerCount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.buttonCount {
+  margin-top: 5px;
+}
+.buttonCount button {
+  margin: 5px;
+  padding: 7px;
+  font-size: 25px;
+}
+
+/* PAGE 4 */
+.containerProduct {
+  position: relative;
+  top: 25px;
+}
+
+.itemsProduct {
+  display: flex;
+  flex-direction: row;
+}
+.itemsProduct li {
+  margin: 5px 20px;
+  list-style: none;
+  padding: 8px;
+}
+.itemsProduct li:hover {
+  border: 2px solid gray;
+}

@@ -1,3 +1,5 @@
+import Button from "@/app/components/Button.jsx";
+
 export default function Questao1() {
   return (
     <>
@@ -6,7 +8,8 @@ export default function Questao1() {
         Crie um botão vermelho com as bordas arredondadas que exiba "Clique-me!"
         como texto. Ao clicar no botão, um alerta deve ser disparado avisando
         que o botão foi clicado.
-      </p>
+      </p>      
+      <Button/>
     </>
   );
 }

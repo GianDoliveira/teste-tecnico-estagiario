@@ -1,3 +1,5 @@
+import Count from "@/app/components/Count";
+
 export default function Questao2() {
   return (
     <>
@@ -9,6 +11,7 @@ export default function Questao2() {
         lógica para atualizar o contador quando a tela for carregada e a lógica
         para atualizar o contador quando os botões forem clicados.
       </p>
+      <Count/>
     </>
   );
 }
